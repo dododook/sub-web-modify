@@ -445,6 +445,10 @@ export default {
       isPC: true,
       btnBoolean: false,
       options: {
+        customBackend: {
+          '默认后端': 'https://psub.yaoguangting.workers.dev',
+          '自建worker后端【vless reality+hy1+hy2】': 'https://psub.yaoguangting.workers.dev'
+        },
         clientTypes: {
           Clash: "clash",
           "Surge4/5": "surge&ver=4",
